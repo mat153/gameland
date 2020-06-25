@@ -1,0 +1,10 @@
+insert into public.stanowiska (nr_stanowiska) values ('stanowisko 1');
+insert into public.stanowiska (nr_stanowiska) values ('stanowisko 2');
+insert into public.stanowiska (nr_stanowiska) values ('stanowisko 3');
+insert into public.stanowiska (nr_stanowiska) values ('stanowisko 4');
+insert into public.stanowiska (nr_stanowiska) values ('stanowisko 5');
+insert into public.stanowiska (nr_stanowiska) values ('stanowisko 6');
+insert into public.stanowiska (nr_stanowiska) values ('stanowisko 7');
+insert into public.stanowiska (nr_stanowiska) values ('stanowisko 8');
+insert into public.stanowiska (nr_stanowiska) values ('stanowisko 9');
+insert into public.stanowiska (nr_stanowiska) values ('stanowisko 10');
