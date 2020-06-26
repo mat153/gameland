@@ -7,8 +7,8 @@ header("location: http://localhost:8000/views/position.php");
 
 <!DOCTYPE html>
 <head>
-    <?php include_once('controllers/loginController.php')?>
-    <link rel="Stylesheet" type="text/css" href="public/css/gamers.css" />
+    <?php include_once('../controllers/loginController.php') ?>
+    <link rel="Stylesheet" type="text/css" href="../public/css/gamers.css" />
     <title>gameland</title>
 </head>
 <body>

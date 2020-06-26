@@ -1,5 +1,5 @@
 <?php
-
+//include('connection.php');
 session_start();
 
 $username="";
@@ -31,9 +31,10 @@ if (isset($_POST['login_user'])){
                 $new = new Logs();
                 $ip = $new->ip();
                 $nick = $new->nick();
-                $query ="insert into registration.public.logs(nick,ip,datetime) values('$nick','$ip','12.00') ";
+                $data = $new->date();
+                $query ="insert into registration.public.logs(nick,ip,datetime) values('$nick','$ip','$data') ";
                 $add = pg_query($db,$query);
-                header("location: http://localhost:8000/views/profile.php");
+                header("Location: http://localhost:8000/views/profile.php");
                 //            setcookie('ciasteczko',$username);
             }
         }else{
@@ -53,5 +54,13 @@ class Logs {
         $nick = $_SESSION['user'];
         return $nick;
     }
+
+    public function date(){
+        date_default_timezone_set("Poland");
+        $data =date("Y-m-d H:i:s");
+        return $data;
+    }
+
+
 
 }

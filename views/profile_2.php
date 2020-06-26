@@ -17,7 +17,7 @@
         </h1>
     </div>
     <div class="wyloguj_2">
-        <form method="post" action = "../logout.php" >
+        <form method="post" action = "../controllers/logout.php" >
             <button type="submit" name="login_user" >Wyloguj sie</button>
         </form>
     </div>
@@ -27,7 +27,7 @@
         </form>
     </div>
     <div class="ranking_2">
-        <form method="post" action = "../logout.php" >
+        <form method="post" action = "../controllers/logout.php" >
             <button type="submit" name="ranking" >Ranking graczy</button>
         </form>
     </div>

@@ -1,6 +1,6 @@
 <?php
 
-include('controllers/loginController.php');
+include('loginController.php');
 pg_close($db);
 //echo $_SESSION['user'];
 

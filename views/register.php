@@ -1,4 +1,4 @@
-<?php include('../controllers/registerController.php') ?>
+<?php require "../controllers/registerController.php"; ?>
 <!DOCTYPE html>
 <head>
 
@@ -19,7 +19,7 @@
         <input name="password" type="password" placeholder="password" required>
 <!--        <input name="password_2" type="password" placeholder="confirm password" required>-->
         <button type="submit" name="registration" class="btn btn-primary">Register</button>
-        <p>Already a user?<a href="login.php"><b>Login in</b></p>
+        <p>Already a user?<a href="http://localhost:8000/views/login.php"><b>Login in</b></p>
     </form>
 
 </div>

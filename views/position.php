@@ -26,7 +26,7 @@
     ?>
     </div>
     <div class="wylogowanie">
-        <form method="post" action = "../logout.php" >
+        <form method="post" action = "../controllers/logout.php" >
             <button type="submit" name="wyloguj" >Wyloguj sie</button>
         </form>
     </div>

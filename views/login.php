@@ -1,5 +1,4 @@
-<?php include('../controllers/loginController.php') ?>
-
+<?php include('../controllers/loginController.php');?>
 <!DOCTYPE html>
 <head>
 

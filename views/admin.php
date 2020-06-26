@@ -20,7 +20,7 @@
         </form>
     </div>
     <div class="wylogowanie">
-        <form action="../logout.php">
+        <form action="../controllers/logout.php">
             <button type="submit" name="position" class="btn btn-primary">Wyloguj się</button>
         </form>
     </div>
